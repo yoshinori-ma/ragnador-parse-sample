@@ -12,6 +12,8 @@
     "nuxt": "^3.3.2"
   },
   "dependencies": {
-    "js-yaml": "^4.1.0"
+    "js-yaml": "^4.1.0",
+    "lodash": "^4.17.21",
+    "vue-json-tree": "^0.4.3"
   }
 }
