@@ -1,8 +1,7 @@
 <template>
   <div>
-      コピペしたやつはりつけるとこ
       <form>
-          <textarea v-model="yamlInput"></textarea>
+          <VTextarea label="コピペしたやつはりつけるとこ" v-model="yamlInput"></VTextarea>
       </form>
 <!--      <JsonTree :data="jsoned"></JsonTree>-->
       <template v-if="jsoned">
